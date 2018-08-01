@@ -1,0 +1,257 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    min-height: 1700px;
+}
+#home{
+    background:url("img/IMG_2558-1.jpg") fixed;
+    background-size: cover;
+    background-position:top;
+}
+.home_inner{
+    background:rgba(0,0,0,0.7);
+    min-height: 650px;
+}
+.navbar-default{
+    background-color:transparent;
+    border:0px;
+    padding-top: 20px;
+    transition: 2s;
+}
+.navbar-default .navbar-brand{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:hover{
+    color:orange;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:orange;
+}
+#home .home_inner h1{
+    padding-top:190px;
+    text-align: center;
+}
+ h1 .typewrite{
+color:white;
+font-weight: bold;
+font-size: 45px;
+}
+#home .home_inner p{
+text-align: center;
+color:white;
+font-size: 18px;
+padding-top: 20px;}
+#home .home_inner .download{
+  margin:auto;
+    padding:8px 22px;
+    color:black;
+    background-color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    border:1px solid white;
+    width:120px;
+    margin-top:50px;
+}
+#home .home_inner .download:hover{
+    background-color:transparent;
+    color:white;
+}
+#home .home_inner .download a{
+    text-decoration: none;
+}
+.color{
+   background-color:rgba(0,0,0,0.8);
+   padding-top:0px;
+}
+#about .bg1 h3{
+font-weight: bold;
+text-transform: uppercase;
+font-size: 20px;
+padding-top:50px;}
+#about .bg1 p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+    padding-top:20px;
+}
+#about .skill{
+    list-style: none;
+    text-align: center;
+    border:1px solid #ddd;
+    padding 25px 15px 15px 15px;
+ 
+    margin: auto;
+    margin-top:20px;
+    box-shadow: 1px 1px 9px rgba(0,0,0,0.5);
+}
+#about .skill li{
+    display: inline-block;
+    color:white;
+    background-color:black;
+    border-radius:5px;
+    padding:5px 12px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top:8px;
+    cursor:pointer;
+        transition:1s;
+}
+#about .skill li:hover{
+    background-color:transparent;
+
+    color:black;
+    border:1px solid black;
+}
+#service{
+    background-color:#f7f7f7;
+    padding-bottom: 70px;
+}
+#service .design{
+text-align: center;
+    box-shadow: 1px 1px 9px rgba(0,0,0,0.1);
+    margin-top:30px;
+    border-radius: 8px;
+background-color:white;}
+#service h1,#work h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    padding-top:50px;
+    margin-top: 60px;
+}
+#service .circle{
+    width:70px;
+    margin-top:160px;
+    margin: 10px auto 15px;
+    height: 70px;
+    border-radius: 50%;
+background: rgba(0, 0, 0, 0.05);
+}
+#service .design:hover .circle{
+    background-color:black;
+    transition: 1s;
+}
+#service .design:hover .circle .fas{
+    color:white;
+    transition: 1s;
+}
+#service .circle .fas{
+    color:black;
+    padding-left:5px;
+    padding-top:25px;
+    font-size: 24px;
+}
+#service .design h4{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top:10px;
+}
+#service .design p{
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#work p{
+font-weight: bold;
+padding-bottom: 30px;}
+#work .bg4 ul{
+list-style: none;
+    padding-bottom: 30px;
+}
+#work .bg4 ul li{
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:5px 15px;
+    cursor: pointer;
+    background-color:black;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#work .bg4 ul li:hover{
+    background-color: white;
+    color:black;
+}
+#work .bg4 ul .active{
+    background-color:white;
+    color:black;
+}
+#work .bg5 .single-work{
+    position: relative;
+    cursor: pointer;
+ 
+}
+
+#work .bg5 .single-work:hover{
+     opacity:0.5;
+    background:rgba(0,0,0,0.8);
+      transition:1s;
+}
+
+#work .bg5 .single-work:hover .itemhover{
+    display: block;
+ 
+}
+.itemhover{
+    position: absolute;
+    margin-left:30%;
+    top:50px;
+    display: none;
+       transition:2s;
+}
+#work .itemhover h3{
+    font-size: 20px;
+    color:white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+     
+}
+#work .itemhover h6{
+    color:black;
+    background-color:white;
+    padding:5px 10px;
+    letter-spacing: 1px;
+      transition:2s;
+    border-radius: 8px;
+    font-size: 13px;
+}
+#work .counter{
+    background-color:#f7f7f7;
+    min-height: 10px;
+    margin-top:50px;
+}
+.p-y-2 {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.p-y-3 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.m-b-1 {
+    margin-bottom: 18px;
+}
+.m-t-1 {
+    margin-top: 18px;
+}
+ .main_counter_area{
+                background: url(https://images.pexels.com/photos/196288/pexels-photo-196288.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat top center;
+                background-size: cover;
+                overflow: hidden;
+            }
+            .main_counter_area .main_counter_content .single_counter{
+                background: rgba(236, 72, 72, 0.5);
+                    color: #fff;
+            }
+            .main_counter_area .main_counter_content .single_counter i{
+                font-size:36px;
+            }
