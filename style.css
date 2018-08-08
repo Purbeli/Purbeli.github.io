@@ -48,7 +48,7 @@
 #home h1{
     padding-top:150px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 #home h1 a:hover{
@@ -233,18 +233,17 @@ background: rgba(0, 0, 0, 0.05);
 
     #work .bg5 .single-work:hover{
 
-       transform: scale(1.1);
+       transform: scale(1.2);
     }
-    #work .bg5 .single-work:hover .singlework_inner{
-        background-color:rgba(0,0,0,0.1);
-        min-height: 250px;
-
-
-
+    #work .single-work:hover .singlework_inner{
+        background-color:rgba(0,0,0,0.7);
+        min-height: 100px;
+        opacity: 0.8;
     }
+   
     #work .bg5 .single-work:hover .itemhover{
         display: block;
-        background-color:rgba(0,0,0,0.8);
+       
         border-radius:5px;
 
 
