@@ -79,7 +79,7 @@ text-shadow: 1px 1px 1px #aaa;
 }
 #home .download:hover a{
     color:white;
-   
+    font-weight: bold;
 }
 #home .download:hover{
     background-color:transparent;
