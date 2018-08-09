@@ -79,6 +79,7 @@ text-shadow: 1px 1px 1px #aaa;
 }
 #home .download:hover a{
     color:white;
+   
 }
 #home .download:hover{
     background-color:transparent;
@@ -230,10 +231,20 @@ background: rgba(0, 0, 0, 0.05);
         cursor: pointer;
         transition:1s;
     }
+    #work .bg5 .singlework_inner{
+        height:95%;
+      
+        width: 97%;
+        position: absolute;
+        top:5px;
+        left:5px;
+       
+        
+    }
 
     #work .bg5 .single-work:hover{
 
-       transform: scale(1.2);
+       transform: scale(1.1);
     }
     #work .single-work:hover .singlework_inner{
         background-color:rgba(0,0,0,0.7);
@@ -243,16 +254,11 @@ background: rgba(0, 0, 0, 0.05);
    
     #work .bg5 .single-work:hover .itemhover{
         display: block;
-       
         border-radius:5px;
 
 
     }
-    #contact p{
-        font-size: 20px;
-        font-family:'Times New Roman', Times, serif;
-        text-align:center;
-    }
+  
     .itemhover{
         position: absolute;
         margin-left:30%;
@@ -282,12 +288,17 @@ background: rgba(0, 0, 0, 0.05);
         min-height: 10px;
         margin-top:50px;
     }
+    #contact p{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        text-align:center;
+    }
     #contact .form{
         background-color:#F7F7F7;
         min-height: 690px;
     }
     #contact form{
-        width:500px;
+       width:70%;
         margin:auto;
         margin-top:30px;
     }
